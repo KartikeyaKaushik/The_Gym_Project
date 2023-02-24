@@ -1,0 +1,122 @@
+@media only screen and (min-width: 768px){
+    .abc img{
+        width: 100%;
+    }
+    .trans{
+        transition-property: width, height, transform;
+        transition-duration: 1s,1s,0.5s;
+        /* transition-timing-function:ease-out; */
+
+    }
+    .trans:hover{
+        width: 398px;
+        transform:rotate(-1deg);
+    }
+    
+}
+@media only screen and ( max-width: 767px) and (min-width: 576px) {
+    .abc img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 520px;
+    }
+}
+
+@media only screen and ( max-width: 575px) and (min-width: 210px){
+    .abc img{
+        /* margin: auto;
+        display: flex;
+        justify-content: center; */
+        width: 100%;
+    }
+}
+@media only screen and ( max-width: 456px){
+    .flutter{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .flutter_02{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+.underline{
+    text-decoration: none;
+}
+
+.hoverr li a:hover{
+    background-color:darkslategray;
+}
+
+.whatsapp{
+    position: fixed;
+    z-index: 2;
+    bottom: 60px;
+    right: 0px;
+}
+.whatsapp a img{
+    width: 60px;
+}
+
+.back_01{
+    /* background-image: url(../Images/back_img_01.jpg); */
+    background-size:cover;
+}
+
+.back_02{
+    background-image: url(../Images/pull_up.jpg);
+    background-size:cover;
+}
+
+.back_03{
+    background-image: url(../Images/anastase-maragos-ehQimz6-1qM-unsplash.jpg);
+    background-size:cover;
+}
+
+.back_04{
+    background-image: url(../Images/back_06.jpg);
+    background-size:cover;
+}
+
+.back_05{
+    background-image: url(../Images/motivation_01.jpg);
+    background-size:cover;
+}
+.font{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.text_shd_01{
+    text-shadow: 4px 4px 6px red;
+}
+.text_shd_02{
+    text-shadow: 3px 3px 6px yellowgreen;
+}
+.text_shd_03{
+    text-shadow: 3px 3px 6px gray;
+}
+.text_shd_04{
+    text-shadow: 3px 3px 6px purple;
+}
+.text_shd_05{
+    text-shadow: 2px 1px 6px black;
+}
+.text_shd_06{
+    text-shadow: 1px 1px 10px black;
+}
+
+.box_shd_01{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box_shd_02:hover{
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
